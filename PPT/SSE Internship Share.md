@@ -20,13 +20,13 @@ typora-root-url: image
 
 data structure, data base, 
 
-![1550906119926](D:\git\PPT\PPT\image\1550906119926.png)
+![1550906119926](\image\1550906119926.png)
 
 * 面试
 
 往收悉的地方引
 
-![1550906188647](D:\git\PPT\PPT\image\1550906188647.png)
+![1550906188647](\image\1550906188647.png)
 
 学校，实习僧，官网。
 
@@ -68,12 +68,12 @@ data structure, data base,
 
 
 
-![1550907833219](D:\git\PPT\PPT\image\1550907833219.png)
+![1550907833219](\image\1550907833219.png)
 
 * xIa=oxing Ye
 * PwC
 
-![1550908370136](/1550908370136.png)
+![1550908370136](\imgae\1550908370136.png)
 
 会计事务所
 
