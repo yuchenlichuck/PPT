@@ -5,6 +5,7 @@ typora-root-url: image
 
 ###  SSE Internship Share
 
+![1550906119926](1550760370362.png)
 
 
 谢叶望：商汤，晨星，普华永道
@@ -20,13 +21,13 @@ typora-root-url: image
 
 data structure, data base, 
 
-![1550906119926](/image/1550906119926.png)
+![1550906119926](image/1550906119926.png)
 
 * 面试
 
 往收悉的地方引
 
-![1550906188647](/image/1550906188647.png)
+![1550906188647](image/1550906188647.png)
 
 学校，实习僧，官网。
 
@@ -68,12 +69,12 @@ data structure, data base,
 
 
 
-![1550907833219](\image\1550907833219.png)
+![1550907833219](image\1550907833219.png)
 
 * xIa=oxing Ye
 * PwC
 
-![1550908370136](\imgae\1550908370136.png)
+![1550908370136](imgae\1550908370136.png)
 
 会计事务所
 
