@@ -90,3 +90,119 @@ ValueError: The 'Objective' class is no longer supported, please use 'nolearn.la
 
 net
 
+test是最终测试集
+
+‘’‘
+
+INFO:tensorflow:2019-03-14 09:32:23.765030: Step 3999: Cross entropy = 0.558947
+INFO:tensorflow:2019-03-14 09:32:23.841141: Step 3999: Validation accuracy = 66.0% (N=100)
+2019-03-14 09:32:26.658318: W tensorflow/core/graph/graph_constructor.cc:1265] Importing a graph with a lower producer version 26 into an existing graph with producer version 27. Shape inference will have run different parts of the graph with different producer versions.
+INFO:tensorflow:Saver not created because there are no variables in the graph to restore
+INFO:tensorflow:Restoring parameters from /tmp/_retrain_checkpoint
+INFO:tensorflow:Final test accuracy = 75.1% (N=1439)
+
+’‘’
+
+tensorflow focal loss
+
+
+
+INFO:tensorflow:Final test accuracy = 92.4% (N=1105)
+INFO:tensorflow:=== MISCLASSIFIED TEST IMAGES ===
+INFO:
+
+G:\\now\\all\\train\DM\vk000422.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk001327.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk001938.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk002161.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk002427.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk002577.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk002942.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk002955.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk003036.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk003236.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk003373.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk003445.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk004312.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk004398.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk005148.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk005363.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk005561.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk005584.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk006182.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk006509.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk006621.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk006739.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk006876.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk007089.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk007330.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk007586.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk008183.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk010618.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk010928.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk011164.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk011203.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk011627.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk012027.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk012332.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013030.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013113.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013202.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013248.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013353.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013402.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk013449.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk014327.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk014823.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk014980.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015193.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015429.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015491.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015577.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015691.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015794.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk015821.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017076.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017106.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017206.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017265.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017640.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017977.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk017989.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018002.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018095.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018169.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018277.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018304.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018383.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018636.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018787.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk018819.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk019684.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk019761.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk019885.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk019960.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk019980.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk020069.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk020143.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk020159.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk020188.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk020263.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021082.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021256.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021308.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021342.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021478.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021675.jpeg  dr
+INFO:tensorflow:                                  G:\\now\\all\\train\DR\vk020634.jpeg  dm
+
+
+
+
+
+
+
+
+
+
+
