@@ -21,3 +21,31 @@ typora-root-url: image
 
 <center>playground.tensorflow.org</center>
 
+![1552547731009](/1552547731009.png)
+
+![1552547754485](/1552547754485.png)
+
+<center>overfitting</center>
+
+<h4>
+    regularization</h4>
+![1552548044214](/1552548044214.png)
+
+
+
+
+
+![1552548216248](/1552548216248.png)
+
+![1552548438440](/1552548438440.png)
+
+![1552548616175](/1552548616175.png)
+
+
+
+Regularized linear regression
+
+j()
+
+![1552548853659](/1552548853659.png)
+

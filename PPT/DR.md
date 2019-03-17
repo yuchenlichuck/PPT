@@ -196,10 +196,18 @@ INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk02147
 INFO:tensorflow:                                  G:\\now\\all\\train\DM\vk021675.jpeg  dr
 INFO:tensorflow:                                  G:\\now\\all\\train\DR\vk020634.jpeg  dm
 
+对于当前比较火热的，使用神经网络+TensorFlow对图像进行分类，随着网络越来越庞大，参数越来越多，使得训练更加困难，由于大部分人没有很强的GPU，所以当前迁移学习越来越火；
 
+对于分类网络，如inception和mobilenet，Google提供一个很好的迁移学习脚本： 
+https://github.com/tensorflow/hub/blob/master/examples/image_retraining/retrain.py
 
+但其中模型需要翻墙才能下载，对于下国内使用神经网络很不方便。
 
+模型下载到本地，使用本地模型训练方法： 
+对于Google提供的–tfhub_module模型参数，https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1，在后面加上?tf-hub-format=compressed变成https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1?tf-hub-format=compressed即可下载模型到本地 
 
+运行脚本retrain.py –image_dir 图片路径 –tfhub_module 模型解压后路径
+--------------------- 
 
 
 
